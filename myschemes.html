@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang "en">
+  <head>
+     <title>Bootstrap Website</title>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+      href="myschemes.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <script src="https://kit.fontawesome.com/bffd979f90.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script>
+    
+    <script>
+      $(document).ready(function(){
+        $('.col-sm-12').hover(
+          //trigger when mouse hover
+        function(){
+          $(this).animate({
+           marginTop: "-=1%",
+          },200);
+        },
+          //trigger when mouse out
+          function(){
+          $(this).animate({
+           marginTop: "0%"
+          },200);
+        }
+        );
+      });
+      </script>
+
+  </head>
+  <body>
+    
+    <!--- Navbar top--->
+       <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+   <div class="container-fluid">
+     <a class="navbar-brand"  href="#">MyHealthSchemes</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+   <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarResponsive">
+ <ul class="navbar-nav ml-auto">
+   <li class="nav-item active">
+     <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Team</a>
+      </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Connect</a>
+      </li>
+    </ul>
+  </div>
+     </nav>
+         <div class="backimg">
+          <!--background image--->
+     <div class="container-fluid img">
+ <div class="centered">
+   <p>Free Quality Critical Care For Low Income Families.</p>
+   </div>
+      </div>
+         
+ 
+   <!---Image Slider--->
+   <div id="demo" class="carousel slide" data-ride="carousel">
+  <!-- Indicators --->
+  <ul class="carousel-indicators">
+  <li class="active" data-target="#slides" data-slide-to="0" ></li>
+  <li data-target="#slides" data-slide-to="1"></li>
+  <li data-target="#slides" data-slide-to="2"></li>
+  <li data-target="#slides" data-slide-to="3"></li>
+  </ul>
+
+  <!-- The slideshow --->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.unsplash.com/photo-1550821210-e399abb3f229?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Army Hospital">
+       <div class="carousel-caption">
+    <div class= carousel-caption-h1>
+      <h1 class="display-2">Looking For An Army Hospital?</h1>
+ <h3>All The Health Schemes For Soldier's Family Are Here!</h3>  
+ </div>
+         <button type="button" class="btn btn-outline-light btn-lg">Explore!</button>
+  </div>
+    </div>
+    
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1607016672486-40a6760ea8d1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Farmer">
+       <div class="carousel-caption">
+  <h1 class="display-2">Are You A Farmer?</h1>
+ <h3>All The Health Schemes For A Farmer's Family Are Here!</h3>
+        <button type="button" class="btn btn-outline-light btn-lg">Explore!</button>
+    </div>
+    </div>
+    
+    <div class="carousel-item">
+   <img src="https://images.unsplash.com/photo-1489670812653-62dd58c94ad3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80" alt="New York">   
+       <div class="carousel-caption">
+          <h1 class="display-2">Are You From An Ex-Servicemen's Family?</h1>
+ <h3>All The Health Schemes For An Ex-Servicemen's Family Are Here!</h3>
+        <button type="button" class="btn btn-outline-light btn-lg">Explore!</button>
+    </div> 
+      </div>
+    
+     <div class="carousel-item">
+      <img src="https://tse3.mm.bing.net/th?id=OIP.WaboozfZERNIyVF3_8ymgAHaEk&pid=Api&P=0&w=264&h=164" alt="New York">
+        <div class="carousel-caption">
+           <h1 class="display-2">Are You From A Regular Employee's Family?</h1>
+ <h3>All The Health Schemes For A Regular Employee's Family Are Here!</h3>
+         <button type="button" class="btn btn-outline-light btn-lg">Explore!</button>
+    </div>
+       </div>
+    
+  </div>
+   
+   <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div> 
+    </div>
+    <!---about us--->     
+         <div class="container-fluid padding">
+      <div class="row text-center">
+        <div class="col-12">
+ <h1 class="display-4">About Us..</h1>
+       </div>
+    </div>
+      <hr class="my-4">
+      </div>
+    
+ <div class="container-fluid padding">
+ <div class="row text-center padding">
+   <div class="col-xs-12 col-sm-6 col-md-4">
+     <i class="fas fa-heartbeat"></i>
+          <h3>Chronic Diseases</h3>
+     <p>The growing prevalence of chronic diseases and the rising geriatric population across the globe are some of the key factors that are estimated to encourage the growth of the global outpatient clinics in the future.
+     </p>
+   </div>
+   
+   <div class="col-xs-12 col-sm-6 col-md-4">
+      <i class="fas fa-diagnoses"></i>
+      <h3>Operation or Surgery</h3>
+     <p>Outpatient surgery, also known as ambulatory surgery, day surgery, day case surgery, or same-day surgery, is surgery that does not require an overnight hospital stay. </p>
+   </div>
+   
+   <div class="col-xs-12 col-sm-6 col-md-4">
+     <i class="fas fa-lungs"></i>
+    <h3>Organ Transplantation</h3>
+     <p>Division of Organ Transplantation. With kidney and liver transplant success rates well above the national average, our Division of Organ Transplantation has been committed to exceeding expectations of care.</p>
+   </div>
+   
+   <div class="col-xs-12 col-sm-6 col-md-4">
+   <i class="fas fa-ambulance"></i>
+          <h3>Emergency Cases</h3>
+     <p>An emergency department (ED), also known as an accident & emergency department (A&E), emergency room (ER), emergency ward (EW) or casualty department, is a medical treatment facility specializing in emergency.</p>
+   </div>
+   
+   <div class="col-xs-12 col-sm-6 col-md-4">
+     <i class="fas fa-bed"></i>
+          <h3>Maternity Services</h3>
+     <p>If you have a heart for integrating medical services or expanding medical services in existing programs your pregnancy help organization offers, we are here to assist you in making that transition.</p>
+   </div>
+   
+   
+   <div class="col-xs-12 col-sm-6 col-md-4">
+    <i class="fas fa-file-medical-alt"></i>
+          <h3>Pharmaceutical Services</h3>
+     <p>The responsible provision of drug therapy for the purpose of achieving definite therapeutic outcomes that improve the patients quality of life.</p>
+   </div>
+    <hr class="my-4">
+   </div> 
+   </div>
+     
+         
+         <!---jumbotron--->
+  <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1>Welcome To Your World !!</h1>
+    <h3>These Facilities Are Limited Upto Parents, Wife/Husband And Childs </h3>
+  </div>
+</div>
+         
+         <!--horizontal cards--->
+          <div class="container mt-5">
+      <!---cardfirst---->
+      <div class="card p-3">
+        <div class="row">
+          <div class="col-md-8 right">
+           <img src="https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/5d/6b/c8/5d6bc8cb-859e-1bb5-b164-2b33bbd74e2e/source/512x512bb.jpg" alt="">
+            <div class="text">
+      <h1>Mahatma Jyotiba Phule Jan Arogya Yojana</h1>
+              </div>
+              </div>
+           <div class="col-md-4 left">
+           <div>
+            <h4>Maharashtra Government</h4>
+            </div>
+             <div> 
+    <button class="btn btn-danger">Explore!</button>
+            </div>
+          </div>
+            </div>
+          </div>
+      
+        <!---cardsecond---->
+   
+       <div class="card p-3 mt-5">
+        <div class="row">
+          <div class="col-md-8 right">
+           <img src="https://tse1.mm.bing.net/th?id=OIP.np92MTxdI9NKczCTmt6JUQAAAA&pid=Api&P=0&w=300&h=300" alt="">
+            <div class="text">
+              <h1>Mukhyamantari Amrutam (MA)</h1>
+              </div>
+              </div>
+           <div class="col-md-4 left">
+          <div>
+            <h4>Gujrat Government</h4>
+            </div>
+              <div>
+             <button class="btn btn-danger">Explore!</button>
+            </div>
+          </div>
+            </div>
+          </div>
+      
+       <!---cardthird---->
+      <div class="card p-3 mt-5">
+        <div class="row">
+          <div class="col-md-8 right">
+           <img src="https://3.bp.blogspot.com/-PmhuEGweMVA/W0TxcztspfI/AAAAAAAAPY8/nxbJC7VJtGgGDAxn_mswlCXtcU_0nvZEwCLcBGAs/s1600/AP-Govt.jpg" alt="">
+            <div class="text">
+              <h1>Rajiv Aarogyasri </h1>
+         </div>
+              </div>
+           <div class="col-md-4 left">
+           <div>
+            <h4>Andhra Pradesh Government</h4>
+            </div>
+             <div>
+             <button class="btn btn-danger">Explore!</button>
+            </div>
+          </div>
+            </div>
+          </div>
+      
+        <!---cardfourth---->
+   
+       <div class="card p-3 mt-5">
+        <div class="row">
+          <div class="col-md-8 right">
+           <img src="https://tse3.mm.bing.net/th?id=OIP.HGZavuEXAqjsijYKbtSTVAHaHa&pid=Api&P=0&w=300&h=300" alt="">
+            <div class="text">
+              <h1>The Chief Minister's Distress Relief Fund</h1>
+              </div>
+              </div>
+           <div class="col-md-4 left">
+          <div>
+            <h4>Kerala Government</h4>
+    </div>
+              <div>
+             <button class="btn btn-danger">Explore!</button>
+            </div>
+          </div>
+            </div>
+          </div>
+      
+       <!---cardfifth---->
+      <div class="card p-3 mt-5">
+        <div class="row">
+          <div class="col-md-8 right">
+           <img src="https://ehealth.eletsonline.com/wp-content/uploads/2015/10/maha-logo.jpg" alt="">
+            <div class="text">
+   <h1>Delhi Government Health Scheme</h1>
+              </div>
+              </div>
+           <div class="col-md-4 left">
+          <div>
+            <h4>Delhi Government</h4>
+            </div>
+              <div>
+             <button class="btn btn-danger">Explore!</button>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+    
+    
+         
+         
+         <!---div class="view">
+           <button type="button" class="btn btn-warning btn-lg">View More</button>
+           </div--->
+          <hr class="my-4">
+       
+         
+         <!---slider carousel vertical cards--->
+         
+          <div class="jumbotron jumbotron-fluid">
+  <div class="container1">
+    <h1>BEST IN SAFETY</h1>
+  <h4>Central Government Health Schemes Are Here...</h4>
+  
+    <div class="container-fluid1">
+	<div class="row">
+		<div class="col-sm-12">
+			<div id="inam" class="carousel slide" data-ride="carousel">
+        
+        <!----inner container-->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						 <div class="container">
+						 	<div class="row">
+             <!---card1--->  
+                 
+			 <div class="col-sm-12 col-lg-4">
+          <div class="container1 mt-4">
+		<div class="card1">
+	<img src="https://www.govtjobs.allindiajobs.in/wp-content/uploads/2015/11/KARHFW_logo.gif" class="card1-img-top">
+			<div class="card-body">
+	<h4 class="card-title">Employees’ State Insurance Scheme</h4>
+	<p class="card-text"> A huge number of people worked in factories post-independence in India.</p>
+<button type="button" class="btn btn-warning">Explore!</button>
+               </div>
+						 			</div>
+            </div>
+						 		</div>
+                  
+                
+                 <!---card2--->
+              
+           <div class="col-sm-12 col-lg-4">
+             <div class="container1 mt-4">
+		<div class="card2">
+	<img src="https://www.govtjobs.allindiajobs.in/wp-content/uploads/2015/11/KARHFW_logo.gif">
+				<div class="card-body">
+		<h4 class="card-title">Aam Aadmi Bima Yojana</h4>
+		<p class="card-text">This is meant for people involved in certain vocations such as Carpentry, Fishing, Handloom weaving, etc... </p>
+<button type="button" class="btn btn-warning">Explore!</button>
+		</div>
+        </div>
+		</div>
+             </div>
+     
+                 <!---card3--->
+                
+						 <div class="col-sm-12 col-lg-4">
+               <div class="container1 mt-4">
+						 			<div class="card3">
+						 				<img src="https://www.govtjobs.allindiajobs.in/wp-content/uploads/2015/11/KARHFW_logo.gif">
+				<div class="card-body">
+		<h4 class="card-title">Pradhan Mantri Suraksha Bima Yojana</h4>
+	<p class="card-text">This scheme came into existence to offer accident insurance to the people of India.
+</p>
+<button type="button" class="btn btn-warning">Explore!</button>
+				</div>
+						</div>
+						</div>
+               </div>
+                </div>
+            </div>	
+          </div>
+
+               
+          <!---2nd cards slider 4 5 6 cards--->
+					<div class="carousel-item">
+						 <div class="container">
+						 	<div class="row">
+                
+                <!--card4--->
+                
+	 		<div class="col-sm-12 col-lg-4">
+        <div class="container1 mt-4">
+		<div class="card4">
+		<img src="https://www.govtjobs.allindiajobs.in/wp-content/uploads/2015/11/KARHFW_logo.gif">
+				<div class="card-body">
+			<h4 class="card-title">Rashtriya Swasthya Bima Yojana</h4>
+	<p class="card-text">This scheme is directed towards people working in the unorganized sector. </p>
+<button type="button" class="btn btn-warning">Explore!</button>
+						</div>
+              </div>
+						</div>
+        </div>
+                  
+                
+            <!--card5--->
+                
+				<div class="col-sm-12 col-lg-4">
+          <div class="container1 mt-4">
+						<div class="card5">
+	<img src="https://www.govtjobs.allindiajobs.in/wp-content/uploads/2015/11/KARHFW_logo.gif">
+						 		<div class="card-body">
+					<h4 class="card-title">Universal Health Insurance Scheme</h4>
+	<p class="card-text">Universal Health Insurance Scheme offers individual as well as group insurance. </p>
+<button type="button" class="btn btn-warning">Explore!</button>
+		</div>		 				
+			</div>			
+				</div>
+          </div>
+ 
+                
+                 <!--card6--->
+                 
+	<div class="col-sm-12 col-lg-4">
+    <div class="container1 mt-4">
+<div class="card6">
+	<img src="https://www.govtjobs.allindiajobs.in/wp-content/uploads/2015/11/KARHFW_logo.gif" class="card-img-top">
+				<div class="card-body">
+			<h4 class="card-title">Awaz Health Insurance Scheme</h4>
+	<p class="card-text">This is a health insurance cover for migrant workers and is initiated by the Government.</p>
+<button type="button" class="btn btn-warning">Explore!</button>
+					</div>
+					</div>
+					</div>
+            </div>
+					</div>
+						</div>
+            </div>
+        
+				<a href="#inam" class="carousel-control-prev" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a href="#inam" class="carousel-control-next" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+				
+      </div>
+		</div>
+	</div>
+</div>
+      </div> 
+      </div> 
+            </div>
+ 
+   <!---connect us--->
+    <div class="container-fluid padding">
+       <div class="row text-center padding">
+          <div class="col-12">
+         <h2>Connect Us</h2>
+            </div>
+         <div class="col-12 social padding">
+           <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+                 <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+      </div>
+     </div>
+    
+    <!---footer--->
+    
+    <footer>
+      <div class="container-fluid padding">
+        <div class="row text-center">
+          <div class="col-md-4">
+       <a class="MyHealthSchemes" href="#">MyHealthSchemes</a>
+          <hr class="light">
+            <p>250-555-9654</p>
+              <p>myhealthschemes@gmail.com</p>
+              <p>100,Street Name</p>  
+            <p>Pune, Maharashtra, 25304</p>
+            </div>
+          <div class="col-md-4">
+            <hr class="light">
+            <h5>Our Time/Hours</h5>
+             <hr class="light">
+            <p> Monday: 9am - 5pm</p>
+             <p>Sunday: 10am - 8pm</p>
+             <p>Saturday: Closed</p>
+        </div>
+          <div class="col-md-4">
+            <hr class="light">
+            <h5>Service Locations</h5>
+             <hr class="light">
+             <p> Pune, 25304</p>
+             <p>Ahmadabad, 11014</p>
+             <p>Mumbai, 25484</p>
+             <p>Banglore, 15263</p>
+             <p>Chennai, 25634</p>
+          </div>
+          <div class="col-12">
+            <hr class="light-100">
+            <h5>&copy; myhealthschemes.com</h5>
+          </div>
+        </div>
+        </div>
+      </footer>
+    
+      
+      
+            
+            
+            
+            
+            
+            
+            
+            
+            
+  </body>
+  </html>
